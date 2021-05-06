@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fbchat.ui.fragments.EnterCodeFragment">
+
+    <ImageView
+        android:id="@+id/enter_code_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_large_margin"
+        android:contentDescription="cd_enter_code_image"
+        android:src="@drawable/register_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enter_code_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/settings_vertical_margin"
+        android:text="@string/register_enter_the_code"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normalText"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/enter_code_image" />
+
+    <EditText
+        android:id="@+id/setn_text"
+        style="@style/smallText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/settings_vertical_margin"
+        android:text="@string/enter_code_sent_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_code_text" />
+
+    <EditText
+        android:id="@+id/register_input_code"
+        style="@style/registerEditText"
+        android:layout_marginTop="@dimen/settings_vertical_margin"
+        android:gravity="center"
+        android:hint="@string/enter_code_default_hint"
+        android:maxLength="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/setn_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

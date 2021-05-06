@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "963334900954",
+    "project_id": "fbchat-f41f3",
+    "storage_bucket": "fbchat-f41f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963334900954:android:18d1e340bf660cb5b2e9e3",
+        "android_client_info": {
+          "package_name": "com.example.fbchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963334900954-ropm6ag2f83273l0erh4epnkui85bb3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqCOnvdhdB3R4U96dORrIWavMxHN1bwuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963334900954-ropm6ag2f83273l0erh4epnkui85bb3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

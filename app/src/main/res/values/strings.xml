@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FBChat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_text_account">Account</string>
+    <string name="settings_default_phone_number">+1 650 555 1234</string>
+    <string name="settings_label_text_phone_number">Tap to change phone number</string>
+    <string name="settings_default_login">zoyanigger</string>
+    <string name="settings_default_bio">Whore</string>
+    <string name="settings_label_text_bio">Tap to change your bio</string>
+    <string name="settings_label_text_login">Tap to change your login</string>
+    <string name="settings_menu_change_name">Change name</string>
+    <string name="settings_menu_exit">Exit</string>
+    <string name="register_enter_the_code">Enter the code</string>
+    <string name="enter_code_sent_text">We sent the code on your phone number</string>
+    <string name="enter_code_default_hint">- - - - - -</string>
+    <string name="register_title_your_phone">Your phone</string>
+    <string name="register_toast_empty_phone_field">Enter your phone number</string>
+    <string name="user_status_text">Online</string>
+</resources>
