@@ -17,4 +17,9 @@
     <string name="register_title_your_phone">Your phone</string>
     <string name="register_toast_empty_phone_field">Enter your phone number</string>
     <string name="user_status_text">Online</string>
+    <string name="change_name_hint_name">Username</string>
+    <string name="change_name_hint_lastname">Last Name</string>
+    <string name="change_name_fragm_toast_empty_name">Enter your name</string>
+    <string name="toast_update_data">Data updated</string>
+    <string name="toast_empty_username_field">Username field is empty</string>
 </resources>

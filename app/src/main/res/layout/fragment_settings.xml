@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/user_full_name"
+            android:id="@+id/setting_user_full_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/horizontal_margin"
@@ -41,14 +41,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/user_status"
+            android:id="@+id/settings_user_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/user_status_text"
             android:textColor="@color/accent_dark_color"
             android:textSize="@dimen/smallText"
-            app:layout_constraintStart_toStartOf="@id/user_full_name"
-            app:layout_constraintTop_toBottomOf="@id/user_full_name" />
+            app:layout_constraintStart_toStartOf="@id/setting_user_full_name"
+            app:layout_constraintTop_toBottomOf="@id/setting_user_full_name" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -75,7 +75,7 @@
         <TextView
             android:id="@+id/settings_phone_number"
             style="@style/settingsNormalText"
-            android:text="@string/settings_default_phone_number"
+            tools:text="@string/settings_default_phone_number"
             app:layout_constraintStart_toStartOf="@id/btn_set_phone_number"
             app:layout_constraintTop_toTopOf="@id/btn_set_phone_number" />
 
@@ -103,7 +103,7 @@
         <TextView
             android:id="@+id/settings_username"
             style="@style/settingsNormalText"
-            android:text="@string/settings_default_login"
+            tools:text="@string/settings_default_login"
             app:layout_constraintStart_toStartOf="@id/btn_set_username"
             app:layout_constraintTop_toTopOf="@id/btn_set_username" />
 
@@ -131,7 +131,7 @@
         <TextView
             android:id="@+id/settings_bio"
             style="@style/settingsNormalText"
-            android:text="@string/settings_default_bio"
+            tools:text="@string/settings_default_bio"
             app:layout_constraintStart_toStartOf="@id/btn_set_bio"
             app:layout_constraintTop_toTopOf="@id/btn_set_bio" />
 
